@@ -23,7 +23,7 @@ namespace FormLKS2017
                 Form6 form6 = new Form6();
                 this.Hide();
                 form6.ShowDialog();
-            }
+            } 
             if (textBox1.Text == "teacher" && textBox2.Text == "teacher")
             {
                 Form2 form2 = new Form2();
@@ -35,7 +35,13 @@ namespace FormLKS2017
                 Form8 form8 = new Form8();
                 this.Hide();
                 form8.ShowDialog();
+            } 
+            if (textBox1.Text == "" && textBox2.Text == "")
+            {
+                MessageBox.Show("Silahkan Masukan Username Dan Password Anda");
             }
+            else
+                MessageBox.Show("Username atau Password Anda Salah");
         }
     }
 }
