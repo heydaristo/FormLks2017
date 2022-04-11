@@ -16,5 +16,15 @@ namespace FormLKS2017
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            this.Hide();
+            form5.ShowDialog();
+            this.Close();
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+        }
     }
 }

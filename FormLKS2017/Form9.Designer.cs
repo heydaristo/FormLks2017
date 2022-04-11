@@ -30,6 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Teacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gender3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DateOfBirth4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PhoneNumber5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -48,12 +54,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.Teacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Address2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gender3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DateOfBirth4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumber5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,6 +81,36 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(668, 150);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // Teacher
+            // 
+            this.Teacher.HeaderText = "TeacherID";
+            this.Teacher.Name = "Teacher";
+            // 
+            // Name1
+            // 
+            this.Name1.HeaderText = "Name";
+            this.Name1.Name = "Name1";
+            // 
+            // Address2
+            // 
+            this.Address2.HeaderText = "Address";
+            this.Address2.Name = "Address2";
+            // 
+            // Gender3
+            // 
+            this.Gender3.HeaderText = "Gender";
+            this.Gender3.Name = "Gender3";
+            // 
+            // DateOfBirth4
+            // 
+            this.DateOfBirth4.HeaderText = "Date Of Birth";
+            this.DateOfBirth4.Name = "DateOfBirth4";
+            // 
+            // PhoneNumber5
+            // 
+            this.PhoneNumber5.HeaderText = "Phone Number";
+            this.PhoneNumber5.Name = "PhoneNumber5";
             // 
             // dateTimePicker1
             // 
@@ -239,36 +269,6 @@
             this.button5.Text = "Cancel";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // Teacher
-            // 
-            this.Teacher.HeaderText = "TeacherID";
-            this.Teacher.Name = "Teacher";
-            // 
-            // Name1
-            // 
-            this.Name1.HeaderText = "Name";
-            this.Name1.Name = "Name1";
-            // 
-            // Address2
-            // 
-            this.Address2.HeaderText = "Address";
-            this.Address2.Name = "Address2";
-            // 
-            // Gender3
-            // 
-            this.Gender3.HeaderText = "Gender";
-            this.Gender3.Name = "Gender3";
-            // 
-            // DateOfBirth4
-            // 
-            this.DateOfBirth4.HeaderText = "Date Of Birth";
-            this.DateOfBirth4.Name = "DateOfBirth4";
-            // 
-            // PhoneNumber5
-            // 
-            this.PhoneNumber5.HeaderText = "Phone Number";
-            this.PhoneNumber5.Name = "PhoneNumber5";
-            // 
             // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,7 +294,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form9";
             this.Text = "Form9";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

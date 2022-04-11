@@ -294,7 +294,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form10";
             this.Text = "Form10";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

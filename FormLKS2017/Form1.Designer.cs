@@ -77,6 +77,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(97, 127);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(149, 20);
             this.textBox2.TabIndex = 4;
             // 
@@ -101,6 +102,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

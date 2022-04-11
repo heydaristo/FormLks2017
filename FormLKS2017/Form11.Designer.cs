@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.StudentID2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -38,8 +40,6 @@
             this.StudentID1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
-            this.StudentID2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -71,6 +71,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(266, 150);
             this.dataGridView1.TabIndex = 2;
+            // 
+            // StudentID2
+            // 
+            this.StudentID2.HeaderText = "Student ID";
+            this.StudentID2.Name = "StudentID2";
+            // 
+            // Name2
+            // 
+            this.Name2.HeaderText = "Name";
+            this.Name2.Name = "Name2";
             // 
             // label2
             // 
@@ -129,16 +139,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Participate Student";
             // 
-            // StudentID2
-            // 
-            this.StudentID2.HeaderText = "Student ID";
-            this.StudentID2.Name = "StudentID2";
-            // 
-            // Name2
-            // 
-            this.Name2.HeaderText = "Name";
-            this.Name2.Name = "Name2";
-            // 
             // Form11
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,7 +152,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form11";
             this.Text = "Form11";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

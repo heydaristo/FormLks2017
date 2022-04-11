@@ -44,6 +44,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Manage Class";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -53,6 +54,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Manage Teacher";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -62,6 +64,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Manage Student";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -81,6 +84,7 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "Manage Schedule";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -90,19 +94,20 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "Logout";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 322);
+            this.ClientSize = new System.Drawing.Size(316, 308);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form8";
             this.Text = "Form8";
             this.ResumeLayout(false);

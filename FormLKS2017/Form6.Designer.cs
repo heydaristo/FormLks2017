@@ -42,6 +42,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -51,6 +52,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Teaching Schedule";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -60,6 +62,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Edit Profile";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -80,7 +83,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form6";
             this.Text = "Form6";
             this.ResumeLayout(false);
